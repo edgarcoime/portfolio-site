@@ -1,10 +1,10 @@
 import React from 'react'
-// Logo
+import { RouteComponentProps } from 'react-router-dom';
 
+// Logo
 import {ReactComponent as Logo} from "../../assets/Logo.svg";
 
-interface WorkInProgressProps {
-  
+interface WorkInProgressProps extends RouteComponentProps<any> {
 }
 
 const WorkInProgress: React.FC<WorkInProgressProps> = ({}) => {
