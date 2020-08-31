@@ -1,0 +1,26 @@
+// body, html, .App {
+//   height: 100%;
+//   margin: 0;
+// }
+
+// Box Sizing reset
+html {
+  box-sizing: border-box;
+  box-sizing: inherit;
+  background-color: white;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// Image resets
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// body resets
+body {
+  margin: 0;
+}
